@@ -1,0 +1,349 @@
+/*
+ Author Name: Niloy Ahmed Rafi;
+ mail Address:niloyahmed801@gmail.com;
+ website link:;
+
+
+*/
+
+/*
+
+=======Index=====
+
+    1.Fusce at
+    2.Facilisis
+    3.Ante donec
+    4.Blandit rhoncus
+    5.Placerat
+    6.Footer
+
+/*
+/* Global Css*/
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 59px;
+    font-family: 'light',bold;
+    padding-top: 76px;
+}
+h2 {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 17px;
+    padding-top: 27px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-right: 578px;
+}
+h4 {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+p.howw {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: light;
+    padding-bottom: 30px;
+}
+p.ba{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p.food-p {
+    text-align: center;
+    font-size: 15px;
+    font-family: light;
+    color: #B1ACA7;
+}
+.bbb {
+    margin: 0 auto;
+}
+button.btn.btn-custom {
+    padding: 18px 31px;
+    background: #99C50A;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+}
+button.btn.btn-custom:hover{
+	background:#DE4B2A;
+	color: white;
+}
+.no-padding{
+
+}
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+p.pp {
+    color: #30343D;
+    font-size: 14px;
+    font-family: light;
+    font-weight: 100;
+    text-align: center;
+    padding: 2px;
+}
+button.btn.btn-cus {
+    background: #ffff;
+    padding: 6px 30px;
+    border-radius: 37px;
+    color: #5A5C63;
+    font-size: 13px;
+}
+button.btn.btn-cus:hover{
+	background:#DE4B2A;
+	color: white;
+}
+h2.news {
+    font-size: 31px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 17px;
+    color: white;
+}
+p.ns {
+    font-size: 15px;
+    font-family: light;
+    font-weight: 100;
+    text-align: center;
+}
+h2.bla {
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 600;
+}
+p.blan {
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 100;
+    font-family: light;
+}
+.btn-link{
+	font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background: #dd4b2b;
+    padding: 3px 39px;
+    border-radius: 26px;
+    font-size: 15px;
+    font-family: regular;
+}
+
+.btn-link:hover{
+	background:#24AD87;
+	color: white;
+}
+.btn-link2{
+	font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background: #4b4e73;
+    padding: 3px 39px;
+    border-radius: 26px;
+    font-size: 15px;
+    font-family: regular;
+}
+.btn-link2:hover{
+	background:#DE4B2A;
+	color: white;
+}
+p.foot {
+    font-size: 18px;
+    padding-top: 31px;
+    font-weight: 100;
+    font-family: light blod;
+}
+span {
+    color: aqua;
+    font-weight: 600;
+    font-size: 19px;
+}
+input.ee {
+    background: #fffefe33;
+    padding: 9px 28px;
+    border-radius: 33px;
+    border: 1px solid white;
+    color: #f7f6f4fa;
+    width: 59%;
+}
+a.aa {
+    background: white;
+    padding: 12px 39px;
+    border-radius: 25px;
+    border: none;
+    margin: 0 auto;
+    margin-left: -38px;
+    color: black;
+}
+a.aa:hover{
+	background:#DE4B2A;
+	color: white;
+}
+/* Theme css */
+
+.navbar-head {
+    background-color: #ffff!important;
+    padding: 10px;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(253, 246, 246, 0.98);
+    border-color: rgba(255,255,255,.1);
+    background: black;
+}
+img.img-fluid.one {
+    width: 218px;
+    padding: 18px;
+}
+.nav-link.js-scroll-trigger.active {
+    background-color: #2ade8b;
+    padding: 5px 36px;
+    border-radius: 43px;
+    color: white!important;
+}
+.nav-link{
+	color:#363A42!important;
+	font-size: 15px; 
+}
+li.nav-item {
+    margin-right: 18px;
+}
+.hero {
+    background: url(../img/hero.png)center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.col-md-12.mx-auto.hero-title {
+    padding-top: 156px;
+    padding-bottom: 51px;
+}
+.col-md-4.food-item {
+    text-align: center;
+}
+.col-md-12.mx-auto.how-title {
+    text-align: center;
+}
+.col-md-4.img-title {
+    text-align: center;
+}
+.col-md-12.mx-auto.facilisis-title {
+    padding-bottom: 20px;
+}
+section#discover {
+    background: linear-gradient(to right, #c7dae0 50%, #edf1e4 50%);
+    padding: 50px 0px;
+}
+img.img-fluid.img-one {
+    padding-left: 108px;
+}
+h3.conn {
+    padding-right: 117px;
+}
+p.connn {
+    font-size: 14px;
+}
+button.btn.btn-one {
+    background: #26A6D1;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: white;
+    border-radius: 7px;
+}
+button.btn.btn-one:hover{
+    background-color: #63BD6E;
+}
+img.img-fluid.img-two {
+    padding-top: 24px;
+    padding-left: 126px;
+}
+p.nnn {
+    font-size: 14px;
+}h4.ni {
+    font-size: 19px;
+    color: black;
+}
+p.pnx{
+    font-size: 14px;
+}
+.d-flex.flex-row.justify-content-between.mt-5 {
+    border-bottom: 2px solid #00000038;
+}
+.niloy {
+    padding-top: 28px;
+}
+i.fa.fa-caret-right {
+    color: green;
+}
+a.btn.btn-primary.btn-sm.ahmed {
+    position: absolute;
+    top: 210px;
+    right: 14px;
+}
+h3.co {
+    padding-right: 145px;
+}
+p.con {
+    font-size: 14px;
+}
+button.btn.btn-two {
+    background: #ADD136;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+}
+button.btn.btn-two:hover{
+    background-color: #D76032;
+}
+img.img-fluid.nil {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.ante-section {
+    background: url(../img/food-section.png)center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 67px 0px;
+}
+img.img-fluid.food-sf {
+    width: 74%;
+}
+.col-md-6.part2 {
+    padding-top: 53px;
+}
+.placerat-section{
+	background-color:#d75d0e;
+	padding: 100px 0px;
+}
+.col-md-4.list {
+    text-align: center;
+}
+li {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: regular;
+}
+.footer-section {
+    background: url(../img/footer.png)top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
